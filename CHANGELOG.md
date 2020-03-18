@@ -4,6 +4,25 @@
 
 [1]: https://www.npmjs.com/package/@google-cloud/os-login?activeTab=versions
 
+## [3.0.0](https://www.github.com/googleapis/nodejs-os-login/compare/v2.0.1...v3.0.0) (2020-03-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* This adds the v1 variant of the API, and makes it the default export. For any non-versioned imports of the service class, please make sure to test updates.
+
+### Features
+
+* bump release level to GA ([#292](https://www.github.com/googleapis/nodejs-os-login/issues/292)) ([321aaa4](https://www.github.com/googleapis/nodejs-os-login/commit/321aaa4247894ac204077d71b92c7d36bf77dcac))
+* deferred client initialization ([#304](https://www.github.com/googleapis/nodejs-os-login/issues/304)) ([1b87592](https://www.github.com/googleapis/nodejs-os-login/commit/1b8759220088e5d330479e6a7623fd67a325a389))
+* export protos in src/index.ts ([53eda47](https://www.github.com/googleapis/nodejs-os-login/commit/53eda478c5e7b41cea528172a76c4acff62b265b))
+* use the v1 variant of the API ([#287](https://www.github.com/googleapis/nodejs-os-login/issues/287)) ([ee86b49](https://www.github.com/googleapis/nodejs-os-login/commit/ee86b4956e81528c5ef4ef055c8dc9dbaf0644be))
+
+
+### Bug Fixes
+
+* proto messages now accept strings for enums ([9606ac8](https://www.github.com/googleapis/nodejs-os-login/commit/9606ac8744e14e7f30740b8c5df1c1548e1e14af))
+
 ### [2.0.1](https://www.github.com/googleapis/nodejs-os-login/compare/v2.0.0...v2.0.1) (2020-01-29)
 
 
